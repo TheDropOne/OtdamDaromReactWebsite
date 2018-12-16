@@ -13,6 +13,11 @@ export const fontSizeMedium = '21px';
 export const fontSizeSmall = '18px';
 export const fontSizeTiny = '15px';
 
+export const fontTitle = '32px';
+export const fontDescription = '24px';
+export const fontMeta = '20px';
+
+
 export const hoverBackground = 'hsl(0, 0%, 90%)';
 
 export const CommonStyle = createGlobalStyle`

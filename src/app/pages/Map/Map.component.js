@@ -3,9 +3,10 @@ import React from 'react';
 import * as SC from './Map.styled';
 
 const Map = () => (
-  <>
-    <SC.PageTitle>Map template</SC.PageTitle>
-  </>
+  <SC.Container>
+    <SC.PageTitle>Change your point of view and choose ads on the map! (Mocked)</SC.PageTitle>
+    <SC.MockedGif src="https://media.giphy.com/media/ukfBZRouwsBe9AiSaL/giphy.gif"/>
+  </SC.Container>
 );
 
 export default Map;
