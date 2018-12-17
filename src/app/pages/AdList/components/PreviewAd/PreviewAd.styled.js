@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import * as styles from '../../../../utils/commonStyles';
 
 export const Container = styled(Link).attrs({
-  to: '/detailed'
+  to: `/detailed`
 })`
   max-width: 230px;
   margin: 6px;

@@ -6,6 +6,7 @@ import * as styles from '../../utils/commonStyles';
 export const PageTitle = styled.h1`
   font-size: ${styles.fontSizeHuge};
   margin-top: 30px;
+  text-align: center;
 `;
 
 export const ParagraphHeader = styled.h2`
@@ -18,8 +19,6 @@ export const ParagraphHeader = styled.h2`
   text-align: center;
 
   padding-bottom: 5px;
-  border-bottom: 1px solid ${styles.borderColor};
-
   ${PageTitle} + & {
     margin-top: 40px;
   }
